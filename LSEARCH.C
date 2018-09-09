@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 void main()
-{  int i,m,n,a[10],c=0;
+{  int i,s,n,a[10],c=0;
    clrscr();
    printf("Enter limit:");
    scanf("%d",&n);
@@ -9,9 +9,9 @@ void main()
    for(i=0;i<n;i++)
 	scanf("%d",&a[i]);
    printf("Enter element to be found:");
-   scanf("%d",&m);
+   scanf("%d",&s);
    for(i=0;i<n;i++)
-	{ if(a[i]==m)
+	{ if(a[i]==s)
 		{ c=1;
 		  break;
 		}
