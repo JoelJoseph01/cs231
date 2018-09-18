@@ -18,7 +18,7 @@ void main()
 		}
 	}
   for(i=0;i<n;i++)
-	printf("%d	\t",a[i]);
+	printf("%d \t",a[i]);
   f=0;
   l=n-1;
   mid=(f+l)/2;
