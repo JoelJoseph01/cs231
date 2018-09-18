@@ -27,8 +27,8 @@ void main()
 
 	printf("After Sorting elements: ");
 	for(i=0; i<num; i++)
-	{
-	  printf("%d  ", arr[i]);
-	}
+		{
+	  	    printf("%d  ", arr[i]);
+		}
 
 }
