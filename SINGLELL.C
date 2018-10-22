@@ -1,3 +1,7 @@
+/*Joel Joseph
+  S3 D 29
+  Single Linked List */
+
 #include <stdio.h>
 #include <stdlib.h>
 
