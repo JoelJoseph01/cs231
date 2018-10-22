@@ -1,3 +1,7 @@
+/*Joel Joseph
+  S3 D 29
+ Polynomial Representation */
+
 #include<stdio.h>
 #include<stdlib.h>
 
