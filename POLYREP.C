@@ -43,10 +43,10 @@ void main()
 	ptr=head->link;
 	printf("F(p) = ");
 	while(ptr!=NULL)
-		{
-	    		printf("%d p^%d + ",ptr->coef,ptr->exp);
-	    		ptr=ptr->link;
-		}
+	{
+	    	printf("%d p^%d + ",ptr->coef,ptr->exp);
+	    	ptr=ptr->link;
+	}
 	printf("0\n");
     }
 }
