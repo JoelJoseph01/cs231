@@ -53,7 +53,7 @@ void main()
     ptr=head2;
     do
     {
-        printf("Enter coefficient: ");
+        printf("Enter the coefficient: ");
         scanf("%d",&c);
         printf("Enter exponent: ");
         scanf("%d",&e);
