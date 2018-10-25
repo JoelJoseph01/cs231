@@ -16,6 +16,7 @@ void main()
     struct node *temp,*head,*ptr;
     int ex,coe,c;
     temp=(struct node*)malloc(sizeof(struct node));
+    head=temp;
     temp->exp=0;
     temp->coef=0;
     temp->link=NULL;
