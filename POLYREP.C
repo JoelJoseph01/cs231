@@ -16,7 +16,6 @@ void main()
     struct node *temp,*head,*ptr;
     int ex,coe,c;
     temp=(struct node*)malloc(sizeof(struct node));
-    head=temp;
     temp->exp=0;
     temp->coef=0;
     temp->link=NULL;
@@ -26,16 +25,23 @@ void main()
     {
 	printf("Enter coefficient: ");
 	scanf("%d",&coe);
-	printf("Enter exponent: ");
-	scanf("%d",&ex);
-	temp=(struct node*)malloc(sizeof(struct node));
-	temp->exp=ex;
-	temp->coef=coe;
-	temp->link=NULL;
-	ptr->link=temp;
-	ptr=ptr->link;
-	printf("1. Add more elements\n2. Continue\nEnter choice: ");
-	scanf("%d",&c);
+	if(coe==0)
+	{
+		printf("\n");
+	}
+	else
+        {
+		printf("Enter exponent: ");
+		scanf("%d",&ex);
+		temp=(struct node*)malloc(sizeof(struct node));
+		temp->exp=ex;
+		temp->coef=coe;
+		temp->link=NULL;
+		ptr->link=temp;
+		ptr=ptr->link;
+	}
+		printf("1. Add more elements\n2. Continue\nEnter choice: ");
+		scanf("%d",&c);
     }while(c==1);
     printf("1. Display polynomial\n2. Exit\nEnter choice: ");
     scanf("%d",&c);
