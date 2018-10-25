@@ -40,8 +40,8 @@ void main()
 		ptr->link=temp;
 		ptr=ptr->link;
 	}
-		printf("1. Add more elements\n2. Continue\nEnter choice: ");
-		scanf("%d",&c);
+	printf("1. Add more elements\n2. Continue\nEnter choice: ");
+	scanf("%d",&c);
     }while(c==1);
     printf("1. Display polynomial\n2. Exit\nEnter choice: ");
     scanf("%d",&c);
