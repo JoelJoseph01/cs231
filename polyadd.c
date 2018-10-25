@@ -33,13 +33,17 @@ void main()
     {
         printf("Enter coefficient: ");
         scanf("%d",&c);
-        printf("Enter exponent: ");
-        scanf("%d",&e);
-        temp=(struct node*)malloc(sizeof(struct node));
-        temp->exp=e;
-        temp->coef=c;
-        temp->link=NULL;
-        ptr->link=temp;
+        if(c==0)
+            printf("\n");
+        else     
+        {   printf("Enter exponent: ");
+            scanf("%d",&e);
+            temp=(struct node*)malloc(sizeof(struct node));
+            temp->exp=e;
+            temp->coef=c;
+            temp->link=NULL;
+            ptr->link=temp;
+        }  
         ptr=ptr->link;
         printf("1. Add more elements\n2. Continue\nEnter choice: ");
         scanf("%d",&cho);
