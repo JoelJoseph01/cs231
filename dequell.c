@@ -61,11 +61,10 @@ void dequeueRear()
 	} else 
         {
 		while (currentNode->next != NULL)
-        {
+                {
 			previousNode = currentNode;
 			currentNode = currentNode->next;
-			
-		
+		}
 		previousNode->next = NULL;
 		free (currentNode);
 	}
