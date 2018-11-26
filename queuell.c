@@ -3,13 +3,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct node {
+struct node 
+{
 	int data;
 	struct node *next;
 }*HEADER;
-int deleteAll() {
+int deleteAll() 
+{
 	struct node *ptr = HEADER, *prevPtr;
-	while (ptr != NULL) {
+	while (ptr != NULL) 
+	{
 		prevPtr = ptr;
 		ptr = ptr->next;
 		free(prevPtr);
@@ -17,54 +20,66 @@ int deleteAll() {
 	HEADER->next = NULL;
 	return (0);
 }
-struct node *newNode() {
+struct node *newNode() 
+{
 	struct node *newptr = malloc(sizeof(struct node));
-	if (newptr == NULL) {
+	if (newptr == NULL) 
+	{
 		printf("Memory overflow");
 		deleteAll();
 		exit(0);
 	}
 	return (newptr);
 }
-void enqueue() {
+void enqueue() 
+{
   int data;
   printf("Enter data to be entered : ");
   scanf("%d", &data);
 	struct node *newptr = newNode(), *currentNode = HEADER;
-	while (currentNode->next != NULL) {
+	while (currentNode->next != NULL) 
+	{
 		currentNode = currentNode->next;
 	}
 	newptr->next = currentNode->next;
 	newptr->data = data;
 	currentNode->next = newptr;
 }
-void dequeue() {
+void dequeue() 
+{
 	struct node *currentNode = HEADER->next;
-	if (currentNode == NULL) {
+	if (currentNode == NULL) 
+	{
 		printf("Empty linked list.\nDeletion failed.\n");
-	} else {
+	} else 
+	{
 		HEADER->next = currentNode->next;
 		free(currentNode);
 	}
 }
-void printQueue() {
+void printQueue() 
+{
 	struct node *currentNode = HEADER->next;
 	printf("\nLinked List\nHEADER->");
-	while (currentNode != NULL) {
+	while (currentNode != NULL) 
+	{
 		printf("%d->", currentNode->data);
 		currentNode = currentNode->next;
 	}
 	printf("NULL\n");
 }
-int main() {
+int main() 
+{
 	char choice;
 	HEADER = malloc(sizeof(struct node));
 	HEADER->data = 0;
 	HEADER->next = NULL;
-	do {
+	do 
+	{
 		printf("\n\tQueue using array\n1.Enqueu\n2.Dequeue\n3.Display\n4.Exit\nEnter your choice : ");
 		scanf(" %c", &choice);
-		switch(choice) {
+		switch(choice) 
+		{
 			case '1':
 				enqueue();
 				break;
