@@ -1,5 +1,6 @@
 /* Joel Joseph
-     S3 D 29*/
+     S3 D 29
+     Multiple Stack using array */
 #include<stdio.h>
 #include<stdlib.h>
 
