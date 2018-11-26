@@ -3,13 +3,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct node {
+struct node 
+{
 	char data;
 	struct node *next;
 }*HEADER;
-int deleteAll() {
+int deleteAll() 
+{
 	struct node *ptr = HEADER, *prevPtr;
-	while (ptr != NULL) {
+	while (ptr != NULL) 
+	{
 		prevPtr = ptr;
 		ptr = ptr->next;
 		free(prevPtr);
@@ -17,20 +20,25 @@ int deleteAll() {
 	HEADER->next = NULL;
 	return (0);
 }
-struct node *newNode() {
+struct node *newNode() 
+{
 	struct node *newptr = malloc(sizeof(struct node));
-	if (newptr == NULL) {
+	if (newptr == NULL) 
+	{
 		printf("Memory overflow");
 		deleteAll();
 		exit(0);
 	}
 	return (newptr);
 }
-int insertNodeEnd(int data) {
+int insertNodeEnd(int data) 
+{
 	struct node *newptr = newNode(), *currentNode = HEADER;
 
-	while (currentNode->next != NULL) {
-		currentNode = currentNode->next;
+	while (currentNode->next != NULL) 
+	{
+		currentNode = currentNode
+			->next;
 	}
 
 	newptr->next = currentNode->next;
@@ -39,9 +47,11 @@ int insertNodeEnd(int data) {
 	return (0);
 }
 
-int printLinkedList() {
+int printLinkedList() 
+{
 	struct node *currentNode = HEADER->next;
-	while (currentNode != NULL) {
+	while (currentNode != NULL) 
+	{
 		printf("%c", currentNode->data);
 		currentNode = currentNode->next;
 	}
@@ -49,7 +59,8 @@ int printLinkedList() {
 	return (0);
 }
 
-int main() {
+int main() 
+{
   char infix[100], buffer;
   int i=0;
 	// initialize Linked List
@@ -60,7 +71,8 @@ int main() {
 
   printf("Enter arithmatic expression : ");
   scanf("%s", infix);
-  for (i=0; infix[i]!='\0'; i++) {
+  for (i=0; infix[i]!='\0'; i++) 
+  {
     insertNodeEnd(infix[i]);
   }
   printf("Entered experssion : ");
