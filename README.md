@@ -1,5 +1,4 @@
 # cs231
-CS231 lab projects
 
 List of experiments
  01: Sequential search
