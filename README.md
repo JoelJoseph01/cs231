@@ -1,6 +1,7 @@
 # cs231
 
 List of programs
+ 
  01: Sequential search
  02: Selection sort
  03: Insertion sort
