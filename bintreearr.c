@@ -6,15 +6,19 @@
 const int size=100;
 int binaryTree[100];
 
-void initialise() {
+void initialise() 
+{
 	int i=0;
 	for (i=0; i<size; i++)
 		binaryTree[i] = -1;
 }
-void inorder(int root) {
+void inorder(int root) 
+{
 	int left, right;
-	if (root<size) {
-		if (binaryTree[root] != -1) {
+	if (root<size) 
+	{
+		if (binaryTree[root] != -1) 
+		{
 			left = root*2+1;
 			right = root*2+2;
 			if (left<size)
@@ -31,18 +35,22 @@ void inorder(int root) {
 // searches for key
 // returns its position if found
 // returns -1 if not found
-int search(int key) {
+int search(int key) 
+{
 	int i=0;
 	for (i=0; i<size; i++)
 		if (binaryTree[i]==key) return i;
 	return -1;
 }
-void insert(int key) {
+void insert(int key) 
+{
 	int index, data;
 	char child;
 	index = search(key);
-	if (index == -1) {
-		if (binaryTree[0] == -1) {
+	if (index == -1) 
+	{
+		if (binaryTree[0] == -1) 
+		{
 			printf("Enter data to be inserted : ");
 			scanf("%d", &data);
 			binaryTree[0] = data;
@@ -50,20 +58,23 @@ void insert(int key) {
 			return;
 		}
 		printf("Key not found");
-	} else {
+	} else 
+	{
 		printf("Enter data to be inserted : ");
 		scanf("%d", &data);
 		printf("Where do you want to enter the data (L/R): ");
 		scanf(" %c", &child);
 		if (child == 'l' || child == 'L')
-			if (2*index+1<size) {
+			if (2*index+1<size) 
+			{
 				binaryTree[2*index+1] = data;
 				printf("Successfully inserted\n");
 			}
 			else
 				printf("Out of memory. Cannot insert\n");
 		else
-			if (2*index+2<size) {
+			if (2*index+2<size) 
+			{
 				binaryTree[2*index+2] = data;
 				printf("Successfully inserted\n");
 			}
@@ -72,10 +83,12 @@ void insert(int key) {
 	}
 }
 
-int showMenu() {
+int showMenu() 
+{
 	char choice;
 	int key, index;
-	do {
+	do 
+	{
 		printf("\tBinary Tree\n");
 		printf("1. Insert\n");
 		printf("2. Search\n");
@@ -84,7 +97,8 @@ int showMenu() {
 		printf("5. Exit\n");
 		printf("Enter your choice : ");
 		scanf(" %c", &choice);
-		switch (choice) {
+		switch (choice) 
+		{
 			case '1':
 				printf("Enter data of the parent node : ");
 				scanf("%d", &key);
@@ -111,7 +125,8 @@ int showMenu() {
 		}
 	} while(choice!='5');
 }
-int main() {
+int main() 
+{
 	initialise();
 	showMenu();
 }
