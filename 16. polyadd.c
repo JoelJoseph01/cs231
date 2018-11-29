@@ -1,3 +1,5 @@
+/* Joel Joseph,29
+   Polynomial Addition */
 #include<stdio.h>
 #include<stdlib.h>
 
