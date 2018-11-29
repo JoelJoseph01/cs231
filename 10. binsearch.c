@@ -1,3 +1,5 @@
+/* Joel Joseph,29
+   Binary Search */
 #include<stdio.h>
 void main()
 { int f,l,n,mid,a[10],i,s,temp,j;
