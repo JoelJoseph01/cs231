@@ -1,3 +1,5 @@
+/* Joel Joseph,29
+   Polynomial multiplication */
 #include<stdio.h>
 #include<stdlib.h>
 
