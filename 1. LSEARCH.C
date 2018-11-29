@@ -1,3 +1,5 @@
+/* Joel Joseph,29
+   Sequential Search */
 #include<stdio.h>
 #include<conio.h>
 void main()
