@@ -1,6 +1,6 @@
-
+/* Joel Joseph,29
+   Insertion sort */
 #include<stdio.h>
-
 void main() 
 {
 	int i, j, num, temp, arr[20];
