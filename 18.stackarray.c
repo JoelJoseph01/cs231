@@ -1,3 +1,5 @@
+/* Joel Joseph,29
+   Implementation of stack using array */
 #include <stdio.h>
 
 int stack[100], n=100, top;
