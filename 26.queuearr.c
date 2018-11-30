@@ -1,5 +1,6 @@
 /* Joel Joseph
-     S3D 29*/
+     S3D 29
+     Queue using array */
 #include<stdio.h>
 #include<stdlib.h>
 
