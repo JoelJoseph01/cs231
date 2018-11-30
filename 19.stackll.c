@@ -1,3 +1,5 @@
+/* Joel Joseph,29
+   Stack using LL */
 #include<stdio.h>
 #include<stldlib.h>
 
