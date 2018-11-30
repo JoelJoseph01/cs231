@@ -1,0 +1,1647 @@
+ ./01_Sequential_Search
+Enter number of elements : 5
+Enter elements
+5 4 3 2 1
+Enter element to search : 3
+Element found at position 3
+
+ ./02_Selection_Sort
+Enter number of elements in the array : 5
+Enter the array
+5 4 3 2 1
+Sorted array
+1 2 3 4 5
+
+ ./03_Insertion_sort
+Enter number of elements in the array : 5
+Enter the array
+5 4 3 2 1
+Sorted array
+1 2 3 4 5
+
+ ./04_Bubble_Sort
+Enter number of elements in the array : 5
+Enter the array
+5 4 3 2 1
+Sorted array
+1 2 3 4 5
+
+ ./05_Mergesort/:/ non/-/recursive
+Enter number of elements in the array : 5
+Enter the array
+5 4 3 2 1
+Sorted array
+1 2 3 4 5
+
+ ./06_Mergesort/:/ recursive
+Enter number of elements in the array : 5
+Enter the array
+5 4 3 2 1
+Sorted array
+1 2 3 4 5
+
+  ./07_QuickSort_Iterative
+Enter number of elements in the array : 5
+Enter the array
+5 4 3 2 1
+Sorted array
+1 2 3 4 5
+
+  ./08_QuickSort_Recursive
+Enter number of elements in the array : 5
+Enter the array
+5 4 3 2 1
+Sorted array
+1 2 3 4 5
+
+  ./09_HeapSort
+Enter number of elements in the array : 5
+Enter the array
+5 4 3 2 1
+Sorted array
+1 2 3 4 5
+
+   ./10_Binary_search
+enter the size of array: 6
+Enter elements: 6 5 4 3 2 1
+enter element to be searched: 4
+1 2 3 4 5 6
+element found
+
+   ./11_Single_LL
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Deletion
+4.Search
+5.Display
+6.Exit
+Enter choice:1
+Enter data: 1
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Deletion
+4.Search
+5.Display
+6.Exit
+Enter choice:1
+Enter data: 2
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Deletion
+4.Search
+5.Display
+6.Exit
+Enter choice:2
+Enter key: 1
+Enter data: 3
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Deletion
+4.Search
+5.Display
+6.Exit
+Enter choice:
+5
+1 -> 3 -> 2 -> NULL
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Deletion
+4.Search
+5.Display
+6.Exit
+Enter choice:4
+Enter key: 2
+
+Element found...
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Deletion
+4.Search
+5.Display
+6.Exit
+Enter choice:3
+Enter key: 3
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Deletion
+4.Search
+5.Display
+6.Exit
+Enter choice:5
+1 -> 2 -> NULL
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Deletion
+4.Search
+5.Display
+6.Exit
+Enter choice:4
+Enter key: 5
+
+Element not found...
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Deletion
+4.Search
+5.Display
+6.Exit
+Enter choice:6
+
+ ./12-Doubly_LL
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Insertion (begining)
+4.Deletion
+5.Search
+6.Display
+7.Exit
+Enter choice:1
+Enter data: 1
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Insertion (begining)
+4.Deletion
+5.Search
+6.Display
+7.Exit
+Enter choice:1
+Enter data: 2
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Insertion (begining)
+4.Deletion
+5.Search
+6.Display
+7.Exit
+Enter choice:1
+Enter data: 3
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Insertion (begining)
+4.Deletion
+5.Search
+6.Display
+7.Exit
+Enter choice:1
+Enter data: 4
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Insertion (begining)
+4.Deletion
+5.Search
+6.Display
+7.Exit
+Enter choice:2
+Enter key: 6
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Insertion (begining)
+4.Deletion
+5.Search
+6.Display
+7.Exit
+Enter choice:6
+1 -> 2 -> 3 -> 4 -> NULL
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Insertion (begining)
+4.Deletion
+5.Search
+6.Display
+7.Exit
+Enter choice:4
+Enter key: 3
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Insertion (begining)
+4.Deletion
+5.Search
+6.Display
+7.Exit
+Enter choice:6
+1 -> 2 -> 4 -> NULL
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Insertion (begining)
+4.Deletion
+5.Search
+6.Display
+7.Exit
+Enter choice:7
+
+ ./13_Circular_Singly_LL
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Deletion
+4.Search
+5.Display
+6.Exit
+Enter choice:1
+Enter data: 1
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Deletion
+4.Search
+5.Display
+6.Exit
+Enter choice:2
+Enter key: 3
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Deletion
+4.Search
+5.Display
+6.Exit
+Enter choice:4
+Enter key: 3
+
+Element not found...
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Deletion
+4.Search
+5.Display
+6.Exit
+Enter choice:5
+1 -> 1
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Deletion
+4.Search
+5.Display
+6.Exit
+Enter choice:3
+Enter key: 1
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Deletion
+4.Search
+5.Display
+6.Exit
+Enter choice:5
+0
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Deletion
+4.Search
+5.Display
+6.Exit
+Enter choice:6
+
+ ./14_Circular_Doubly_LL
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Insertion (begining)
+4.Deletion
+5.Search
+6.Display
+7.Exit
+Enter choice:1
+Enter data: 2
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Insertion (begining)
+4.Deletion
+5.Search
+6.Display
+7.Exit
+Enter choice:1
+Enter data: 3
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Insertion (begining)
+4.Deletion
+5.Search
+6.Display
+7.Exit
+Enter choice:1
+Enter data: 4
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Insertion (begining)
+4.Deletion
+5.Search
+6.Display
+7.Exit
+Enter choice:2
+Enter key: 5
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Insertion (begining)
+4.Deletion
+5.Search
+6.Display
+7.Exit
+Enter choice:3
+Enter key: 7
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Insertion (begining)
+4.Deletion
+5.Search
+6.Display
+7.Exit
+Enter choice:6
+7 -> 2 -> 3 -> 4 -> 7
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Insertion (begining)
+4.Deletion
+5.Search
+6.Display
+7.Exit
+Enter choice:4
+Enter key: 3
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Insertion (begining)
+4.Deletion
+5.Search
+6.Display
+7.Exit
+Enter choice:5
+Enter key: 2
+
+Element found...
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Insertion (begining)
+4.Deletion
+5.Search
+6.Display
+7.Exit
+Enter choice:6
+7 -> 2 -> 4 -> 7
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Insertion (begining)
+4.Deletion
+5.Search
+6.Display
+7.Exit
+Enter choice:7
+
+ ./15_Polynomial_Representation
+Enter coefficient: 3
+Enter exponent: 2
+1. Add more elements
+2. Continue
+Enter choice: 1
+Enter coefficient: 5
+Enter exponent: 1
+1. Add more elements
+2. Continue
+Enter choice: 2
+1. Display polynomial
+2. Exit
+Enter choice: 1
+F(p) = 3 p2 + 5 p1 + 0
+
+ ./16_Polynomial_Addition
+First Polynomial
+Enter coefficient: 3
+Enter exponent: 2
+1. Add more elements
+2. Continue
+Enter choice: 1
+Enter coefficient: 1
+Enter exponent: 1
+1. Add more elements
+2. Continue
+Enter choice: 2
+
+
+Second polynomial
+Enter coefficient: 4
+Enter exponent: 3
+1. Add more elements
+2. Continue
+Enter choice: 1
+Enter coefficient: 6
+Enter exponent: 1
+1. Add more elements
+2. Continue
+Enter choice: 2
+
+F(r) = F(p) + F(q)
+F(p) = 3 p2 + 1 p1 + 0
+F(q) = 4 q3 + 6 q1 + 0
+F(r) = 4 r3 + 3 r2 + 7 r1 + 0
+
+
+ ./17_Polynomial_Multiplication
+First Polynomial
+Enter coefficient: 4
+Enter exponent: 2
+1. Add more elements
+2. Continue
+Enter choice: 1
+Enter coefficient: 5
+Enter exponent: 1
+1. Add more elements
+2. Continue
+Enter choice: 2
+
+
+Second polynomial
+Enter coefficient: 3
+Enter exponent: 2
+1. Add more elements
+2. Continue
+Enter choice: 2
+F(p) = 4 p2 + 5 p1 + 0
+F(q) = 3 q2 + 0
+F(r) = 12 r4 + 15 r3 + 0
+
+
+ ./18_Stack_Using_Array
+
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 1
+enter the element: 1
+element pushed!!!
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 1
+enter the element: 2
+element pushed!!!
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 1
+enter the element: 4
+element pushed!!!
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 1
+enter the element: 5
+element pushed!!!
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 3
+elements: 5 |->4 |->2 |->1 |->NULL
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 2
+popped out: 5
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 2
+popped out: 4
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 3
+elements: 2 |->1 |->NULL
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 4
+
+ ./19_Stack_Using_LL
+
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 1
+enter the element: 1
+
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 1
+enter the element: 2
+
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 1
+enter the element: 3
+
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 1
+enter the element: 4
+
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 2
+popped out: 4
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 3
+elements: 3 ->2 ->1 ->NULL
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 4
+
+ ./20_Multiple_Stack
+
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 1
+enter the element: 1
+element pushed!!!
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 1
+enter the element: 2
+element pushed!!!
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 1
+enter the element: 3
+element pushed!!!
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 1
+enter the element: 4
+element pushed!!!
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 4
+enter the element: 6
+element pushed!!!
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 4
+enter the element: 7
+element pushed!!!
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 4
+enter the element: 8
+element pushed!!!
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 4
+enter the element: 9
+element pushed!!!
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 3
+elements: 4 |->3 |->2 |->1 |->NULL
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 6
+elements: 9 |->8 |->7 |->6 |->NULL
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 2
+popped out: 4
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 2
+popped out: 3
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 5
+popped out: 9
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 5
+popped out: 8
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 3
+elements: 2 |->1 |->NULL
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: 6
+elements: 7 |->6 |->NULL
+MENU
+
+STACK 1        STACK 2
+1.PUSH         4.PUSH
+2.POP          5.POP
+3.DISPLAY      6.DISPLAY
+         7.EXIT
+Enter Choice: ^C
+
+ ./21_Representation_Ari_Operation_LL
+Enter the infix form: ((a+b)*(c-d))
+ ) -> ) -> d -> - -> c -> ( -> * -> ) -> b -> + -> a -> ( -> ( 
+
+
+ ./22_Infix_to_Postfix_Conversion
+Enter the infix form: (a+b)
+ab+
+
+ ./26_Queue_using_array
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 1
+Enter the value of element: 1
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 1
+Enter the value of element: 2
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 1
+Enter the value of element: 3
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 1
+Enter the value of element: 4
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 1
+Enter the value of element: 5
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 3
+1 -> 2 -> 3 -> 4 -> 5 ->
+Front: 1
+End: 5
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 2
+Deleted 1
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 2
+Deleted 2
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 3
+3 -> 4 -> 5 ->
+Front: 3
+End: 5
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 4
+
+
+ ./27_Dequeue_Array
+
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 3
+Enter the value of element: 5
+
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 3
+Enter the value of element: 6
+
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 3
+Enter the value of element: 7
+
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 3
+Enter the value of element: 8
+
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 5
+5 -> 6 -> 7 -> 8 ->
+Front: 1
+End: 4
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 2
+Deleted 5
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 2
+Deleted 6
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 5
+7 -> 8 ->
+Front: 3
+End: 4
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 1
+Enter the value of element: 2
+
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 1
+Enter the value of element: 3
+
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 1
+Enter the value of element: 5
+NO space:
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 5
+3 -> 2 -> 7 -> 8 ->
+Front: 1
+End: 4
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice:6
+
+
+ ./28_Circular_Q_Array
+
+MENU
+1.Insertion
+2.Deletion
+3.Dispaly
+4.Exit
+Enter choice: 1
+Enter element: 1
+
+MENU
+1.Insertion
+2.Deletion
+3.Dispaly
+4.Exit
+Enter choice: 1
+Enter element: 2
+
+MENU
+1.Insertion
+2.Deletion
+3.Dispaly
+4.Exit
+Enter choice: 1
+Enter element: 3
+
+MENU
+1.Insertion
+2.Deletion
+3.Dispaly
+4.Exit
+Enter choice: 1
+Enter element: 4
+
+MENU
+1.Insertion
+2.Deletion
+3.Dispaly
+4.Exit
+Enter choice: 3
+ 1 <- 2 <- 3 <- 4 <-
+MENU
+1.Insertion
+2.Deletion
+3.Dispaly
+4.Exit
+Enter choice: 2
+
+MENU
+1.Insertion
+2.Deletion
+3.Dispaly
+4.Exit
+Enter choice: 4
+
+
+ ./29_Q_Using_LL
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice: 1
+Enter element: 1
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice: 1
+Enter element: 2
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice: 1
+Enter element: 3
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice: 1
+Enter element: 4
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice: 3
+1 <-2 <-3 <-4 <- NULL
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice: 2
+
+DELETED 1
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice: 2
+
+DELETED 2
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice: 3
+3 <-4 <- NULL
+MENU
+1.Insertion
+2.Deletion
+3.Display
+Enter choice: 4
+
+
+ ./30_Dequeue_LL
+
+
+MENU
+1.Insertion(front)
+2.Insertion(end)
+3.Deletion(front)
+4.Deletion(end)
+5.Display
+6.Exit
+Enter choice: 1
+Enter element: 1
+
+
+MENU
+1.Insertion(front)
+2.Insertion(end)
+3.Deletion(front)
+4.Deletion(end)
+5.Display
+6.Exit
+Enter choice: 1
+Enter element: 2
+
+
+MENU
+1.Insertion(front)
+2.Insertion(end)
+3.Deletion(front)
+4.Deletion(end)
+5.Display
+6.Exit
+Enter choice: 1
+Enter element: 3
+
+
+MENU
+1.Insertion(front)
+2.Insertion(end)
+3.Deletion(front)
+4.Deletion(end)
+5.Display
+6.Exit
+Enter choice: 2
+Enter element: 4
+
+
+MENU
+1.Insertion(front)
+2.Insertion(end)
+3.Deletion(front)
+4.Deletion(end)
+5.Display
+6.Exit
+Enter choice: 2
+Enter element: 5
+
+
+MENU
+1.Insertion(front)
+2.Insertion(end)
+3.Deletion(front)
+4.Deletion(end)
+5.Display
+6.Exit
+Enter choice: 2
+Enter element: 6
+
+
+MENU
+1.Insertion(front)
+2.Insertion(end)
+3.Deletion(front)
+4.Deletion(end)
+5.Display
+6.Exit
+Enter choice: 5
+3 <->2 <->1 <->4 <->5 <->6 <->NULL
+
+MENU
+1.Insertion(front)
+2.Insertion(end)
+3.Deletion(front)
+4.Deletion(end)
+5.Display
+6.Exit
+Enter choice: 4
+
+
+MENU
+1.Insertion(front)
+2.Insertion(end)
+3.Deletion(front)
+4.Deletion(end)
+5.Display
+6.Exit
+Enter choice: 3
+
+
+MENU
+1.Insertion(front)
+2.Insertion(end)
+3.Deletion(front)
+4.Deletion(end)
+5.Display
+6.Exit
+Enter choice: 5
+2 <->1 <->4 <->5 <->NULL
+
+MENU
+1.Insertion(front)
+2.Insertion(end)
+3.Deletion(front)
+4.Deletion(end)
+5.Display
+6.Exit
+Enter choice: 6
+
+
+ ./31_Circular_Queue_LL
+
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 1
+Enter element: 1
+
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 1
+Enter element: 2
+
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 1
+Enter element: 3
+
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 1
+Enter element: 4
+
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 1
+Enter element: 5
+
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 2
+
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 3
+2 <-3 <-4 <-5 <-2
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 2
+
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 2
+
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 3
+4 <-5 <-4
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 4
+
+
+ ./32_BinaryTree_LL
+
+   MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 1
+
+Enter data: 5
+
+   MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 1
+
+Enter data: 7
+Select node (by data): 5
+
+Select child node
+1.left
+2.Right
+Enter Choice: 2
+
+   MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 1
+
+Enter data: 3
+Select node (by data): 5
+
+Select child node
+1.left
+2.Right
+Enter Choice: 1
+
+   MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 3
+
+TREE(in postfix form)
+3 7 5
+   MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 1
+
+Enter data: 6
+Select node (by data): 7
+
+Select child node
+1.left
+2.Right
+Enter Choice: 1
+
+   MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 3
+
+TREE(in postfix form)
+3 6 7 5
+   MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 2
+Select node (by data): 5
+CHECK
+   MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 3
+
+TREE(in postfix form)
+3 7 6
+   MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice:4
+
+
+ ./33_Binarytree_array
+
+   MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 1
+Enter data: 5
+
+   MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 1
+Select parent node(by data): 5
+
+Select child node
+1.Left
+2.Right
+Enter Choice: 1
+Enter data: 3
+
+   MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 1
+Select parent node(by data): 5
+
+Select child node
+1.Left
+2.Right
+Enter Choice: 2
+Enter data: 7
+
+   MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 1
+Select parent node(by data): 3
+
+Select child node
+1.Left
+2.Right
+Enter Choice: 1
+Enter data: 1
+
+   MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 3
+1 3 7 5
+   MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 2
+
+Select node(by data): 5
+
+   MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 3
+3 7 1
+   MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 4
+
+
+ ./41_Binary_Search_Tree_Operation_LL
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 1
+
+Enter data: 5
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 1
+
+Enter data: 3
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 1
+
+Enter data: 7
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 1
+
+Enter data: 2
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 1
+
+Enter data: 4
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 1
+
+Enter data: 6
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 1
+
+Enter data: 8
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 1
+
+Enter data: 5
+Data already exists!! (NODE dumped)
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 3
+
+TREE(in postfix form)
+2 4 3 6 8 7 5
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 2
+Enter Data: 5
+
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice: 3
+
+TREE(in postfix form)
+2 4 3 8 7 6
+MENU
+1.Insertion
+2.Deletion
+3.Display
+4.Exit
+Enter Choice:4
